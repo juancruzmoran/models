@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= genre.name %> </title>
+    <link rel='stylesheet' href='/css/style.css' />
+
+</head>
+<body>
+    <%- include('./partials/header')  %> 
+    <figure class="logo">
+        <a href="/"><img src="/img/logo-DH.png" alt="Logo Digital House"></a>
+    </figure>    
+
+    <div class="box_list_genre">
+        <h1><%= genre.name %> </h1>
+        <p>NAME: <%= genre.name %> </p>
+        <br>
+        <p>RANKIG: <%= genre.ranking %> </p>
+    </div>
+
+</body>
+</html>
